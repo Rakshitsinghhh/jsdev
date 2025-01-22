@@ -1,0 +1,35 @@
+#images img
+{
+
+    gap: 20px;
+    height: 150px
+}
+#images
+{
+    display: flex;
+    justify-content: center;
+
+}
+
+#images button img
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#images button:hover
+{
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Shadow on hover */
+    transform: scale(1.05);
+}
+
+#text
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
